@@ -59,7 +59,7 @@ BEGIN {
   products[i] = "";
  } ```
  
- setelah itu 
+ setelah itu kita lakukan looping untuk mencari 10 produk dari hasil no 1a yaitu Pennsylvania dan Ohio
  
  FS = "\t";
  OFS = " ";
