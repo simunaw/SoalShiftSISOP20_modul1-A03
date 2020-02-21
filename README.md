@@ -74,6 +74,15 @@ BEGIN {
   }
 }
 
+2a.)membuat password
+```#!/bin/bash
+
+< /dev/urandom tr -dc  A-Z-a-z-0-9 | head -c${1:-28}; echo;```
+
+b.) menginput difile
+```#!/bin/bash
+file = $1
+< /dev/urandom tr -dc A-Z-a-z-0-9 | fold -w28|head -n1 > "$file1".txt```
 
 3. a.) Mendownload 28 gambar
 yang pertama adlah lakukan looping seperti yang sudah dijelaskan pada modul 1 
