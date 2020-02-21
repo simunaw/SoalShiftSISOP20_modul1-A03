@@ -73,3 +73,12 @@ BEGIN {
    }
   }
 }
+
+
+3. a.) Mendownload 28 gambar
+yang pertama adlah lakukan looping seperti yang sudah dijelaskan pada modul 1 
+```for((k=1;$k<=28; k=k+1))
+do
+echo $k 
+wget "https://loremflickr.com/320/240/cat" -a "wget.log" -O "pdkt_kusuma_$k"
+done ```
